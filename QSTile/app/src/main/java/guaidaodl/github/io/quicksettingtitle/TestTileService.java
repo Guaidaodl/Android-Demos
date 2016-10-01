@@ -24,6 +24,8 @@ public class TestTileService extends TileService {
         } {
             tile.setLabel(getApplicationContext().getString(R.string.enable_tile));
         }
+
+        tile.updateTile();
     }
 
     @Override
